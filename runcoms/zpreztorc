@@ -33,6 +33,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'utility' \
   'completion' \
+  'history-substring-search' \
   'prompt'
 
 #
@@ -58,6 +59,13 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Set the command prefix on non-GNU systems.
 # zstyle ':prezto:module:gnu-utility' prefix 'g'
+
+
+#
+# Completion
+#
+
+zstyle ':prezto:module:completion:*' case-sensitive 'yes'
 
 #
 # History Substring Search
