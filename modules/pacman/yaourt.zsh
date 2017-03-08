@@ -17,3 +17,5 @@ fi
 # Manages .pac* files.
 alias pacc='yaourt -C'
 
+alias yaourt-autoremove='yaourt -Qdtq | yaourt -Rs -'
+alias yaourt-clean='yaourt -Sc'

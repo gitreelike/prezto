@@ -34,6 +34,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'history-substring-search' \
+  'pacman' \
   'prompt'
 
 #
@@ -85,7 +86,7 @@ zstyle ':prezto:module:completion:*' case-sensitive 'yes'
 #
 
 # Set the Pacman frontend.
-# zstyle ':prezto:module:pacman' frontend 'yaourt'
+zstyle ':prezto:module:pacman' frontend 'yaourt'
 
 #
 # Prompt
