@@ -22,5 +22,6 @@ alias lni="${aliases[ln]:-ln} -i"
 alias mvi="${aliases[mv]:-mv} -i"
 alias rmi="${aliases[rm]:-rm} -i"
 
+alias top="htop"
 alias pacman-autoremove='pacman -R `pacman -Qdtq`'
 alias yaourt-autoremove='yaourt -R `yaourt -Qdtq`'
