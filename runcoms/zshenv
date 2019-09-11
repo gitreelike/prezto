@@ -12,3 +12,9 @@ fi
 
 HOSTNAME=`hostname` 
 export HOSTNAME
+
+export PATH=$PATH:/usr/lib/nodejs/current_version/bin
+export ANDROID_HOME=$HOME/software/android-sdk-linux
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
+
+
